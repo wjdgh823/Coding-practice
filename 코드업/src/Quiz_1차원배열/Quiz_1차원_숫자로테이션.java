@@ -18,7 +18,24 @@ public class Quiz_1차원_숫자로테이션 {
 		5 1 2 3 4
 		*/
 		
-		StringBuffer n = new StringBuffer();
+		Scanner  sc = new Scanner(System.in);
+		
+		int n = sc.nextInt();
+		
+		int[] num = new int [n];
+		
+		// 입력한 갯수만큼 숫자의 양이 존재한다
+		
+		for (int i = 0; i < num.length; i++) {
+			num[i] = sc.nextInt();
+		}
+		
+		for (int i = 0; i < n; i++) {
+		}
+		
+		
+		
+		
 		
 		
 		
