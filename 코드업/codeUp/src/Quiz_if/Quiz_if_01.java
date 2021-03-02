@@ -2,7 +2,7 @@ package Quiz_if;
 
 import java.util.Scanner;
 
-public class Quiz01 {
+public class Quiz_if_01 {
 
 	public static void main(String[] args) {
 		
