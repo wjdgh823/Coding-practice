@@ -13,8 +13,10 @@ public class while_02_3 {
 		String str;
 		
 		while( (str=br.readLine()) != null) {
-			int a = str.charAt(0) - 48;
-			int b = str.charAt(2) - 48;
+			int a = str.charAt(0) - '0';
+			int b = str.charAt(2) - '0';
+			System.out.println(a);
+			System.out.println(b);
 			sb.append(a+b).append("\n");
 		}
 		System.out.println(sb);
