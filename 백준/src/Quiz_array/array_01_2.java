@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class array_02 {
+public class array_01_2 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 
