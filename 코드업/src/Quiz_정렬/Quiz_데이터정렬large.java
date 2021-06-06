@@ -11,14 +11,15 @@ public class Quiz_데이터정렬large {
 		Scanner sc = new Scanner(System.in);
 		
 		int num = sc.nextInt();
-		int[] arr = new int[num];
+		Integer[] arr = new Integer[num];
 		
 		for (int i = 0; i < num; i++) {
 			arr[i] = sc.nextInt();
 		}
 		
-		A
+		Arrays.sort(arr, Collections.reverseOrder());
 		
+		System.out.println(Arrays.toString(arr));
 	}
 
 }
