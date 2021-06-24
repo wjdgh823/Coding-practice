@@ -2,18 +2,15 @@ package CodeUp_1010_1027;
 
 import java.util.Scanner;
 
-public class codeup_1015 {
+public class codeup_1018 {
 
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
 		
-		Double x = sc.nextDouble();
+		String format = sc.next();
 		
-		x = Double.parseDouble(String.format("%.2f", x));
-		
-		System.out.println(x);
-		
+		System.out.println(format);
 		
 	}
 
