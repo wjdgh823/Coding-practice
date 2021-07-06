@@ -10,6 +10,18 @@ public class codeup_1076 {
 		
 		char alpa = sc.next().charAt(0);
 		
+		int i = 0;
+		char result;
+		while(true) {
+			result = (char) ('a' + i);
+			i++;
+			if (result == 'f') {
+				System.out.print(result + " ");
+				break;
+			}
+			System.out.print(result + " ");
+		}
+		
 		
 		
 	}
