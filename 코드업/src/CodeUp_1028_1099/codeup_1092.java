@@ -18,7 +18,6 @@ public class codeup_1092 {
 				day++;
 		}
 		System.out.println(day);
-		
 	}
 
 }
