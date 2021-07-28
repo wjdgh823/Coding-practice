@@ -12,18 +12,18 @@ public class codeup_1094 {
 		
 		int n = sc.nextInt();
 		
-		Integer [] arrCall = new Integer[n];
+		int [] arrCall = new int[n];
 		
 		for (int i = 0; i < arrCall.length; i++) {
 			arrCall[i] = (int)(Math.random() * 23 + 1);
 			System.out.print(arrCall[i] + " ");
 		}
 		System.out.println();
-		Arrays.sort(arrCall, Collections.reverseOrder());
 		
-		for (int i : arrCall) {
-			System.out.print(i + " ");
+		for (int i = arrCall.length-1; i >= 0; i--) {
+			System.out.print(arrCall[i] + " ");
 		}
+		
 	}
 
 }
