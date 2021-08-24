@@ -9,11 +9,19 @@ public class codeup_1180 {
 
 		Scanner sc = new Scanner(System.in);
 		
-		String n = sc.next();
+		int n = sc.nextInt();
 		
-		int num = (n.charAt(0));
+		String ten = String.valueOf(n / 10);
+		String one = String.valueOf(n % 10);
 		
-		System.out.println(num);
+		int result = Integer.parseInt(one + ten) * 2;
+		
+		System.out.println(result);
+		if (result <= 50) {
+			System.out.println("GOOD");
+		} else if (result > 50) {
+			System.out.println("OH MY GOD");
+		}
 		
 	}
 
