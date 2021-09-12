@@ -8,12 +8,26 @@ public class codeup_1254 {
 
 		Scanner sc = new Scanner(System.in);
 		
-		String start = sc.next();
-		String end = sc.next();
+		char start = sc.next().charAt(0);
+		char end = sc.next().charAt(0);
 		
-		String result = start + 1;
+		int iStart = (int) start;
+		int iEnd = (int) end;
 		
-		System.out.println(result);
+		
+		if (iStart < iEnd) {
+			while(iStart <= iEnd) {
+				System.out.print((char)iStart + " ");
+				iStart++;
+			}
+		} else if (iEnd < iStart) {
+			while (iEnd <= iStart) {
+				System.out.print((char)iEnd + " ");
+				iEnd++;
+			}
+		} else {
+			System.out.println(start);
+		}
 		
 	}
 
