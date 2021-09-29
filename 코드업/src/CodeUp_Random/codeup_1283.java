@@ -20,9 +20,9 @@ public class codeup_1283 {
 		int result = a;
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] < 0) {
-				result *= (100+arr[i]) / 100;
+				result -=  result  * (arr[i] * -1 * 0.01);
 			} else {
-				result *= (100+arr[i]) / 100;
+				result += result  * (arr[i] * 0.01);
 			}
 		}
 		
