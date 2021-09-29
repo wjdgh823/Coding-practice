@@ -21,10 +21,8 @@ public class codeup_1283 {
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] < 0) {
 				result -=  result  * (arr[i] * -1 * 0.01);
-				System.out.println(result + "-일때");
 			} else {
 				result += result  * (arr[i] * 0.01);
-				System.out.println(result + "+일때");
 			}
 		}
 		
