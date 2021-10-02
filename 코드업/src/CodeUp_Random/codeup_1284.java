@@ -1,6 +1,5 @@
 package CodeUp_Random;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class codeup_1284 {
@@ -39,14 +38,6 @@ public class codeup_1284 {
 			arr1[i] = arr[i];
 			System.out.println(arr1[i]);
 		}
-		
-		//Arrays.sort(arr1);
-		
-		//for(int i = 0; i < arr1.length; i++) {
-		//	System.out.println(arr1[i]);
-		//}
-		
-		
 		 
 	}
 
